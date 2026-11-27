@@ -1,28 +1,28 @@
 class Matenadar < Formula
-  desc "Book and page layout engine for people and agents"
+  desc "Typesetting engine for anything that prints, for people and agents"
   homepage "https://github.com/lvnr/matenadar"
-  version "0.2.0"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/lvnr/matenadar/releases/download/v0.2.0/matenadar-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "96adb26d44dfaa16590ef1ba22014015b36142f69e3c9e886a6ce7aac8de355f"
+      url "https://github.com/lvnr/matenadar/releases/download/v0.3.0/matenadar-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "9db6880e23fabd7bc449a2cc5513e7a627cb40322e842ed65c5b10171a154432"
     end
     on_intel do
-      url "https://github.com/lvnr/matenadar/releases/download/v0.2.0/matenadar-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "f162f8befad9ac0c8bf392653ab0e49eb442c6f5cfe2b58289839480e330c4a3"
+      url "https://github.com/lvnr/matenadar/releases/download/v0.3.0/matenadar-v0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "06a5fca105c442970e6458bf3961624f622ba4c209196d6ec9594a2ab297c305"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/lvnr/matenadar/releases/download/v0.2.0/matenadar-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a3ebe99bd6e89a31b16253e7eb43b1faea0107dfe59d7c3a7a0f3e23e9f2f577"
+      url "https://github.com/lvnr/matenadar/releases/download/v0.3.0/matenadar-v0.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f76fc659bdf3784457c81dba6de3f1b67ae8a30db1657dfab80113ca26fe51de"
     end
     on_intel do
-      url "https://github.com/lvnr/matenadar/releases/download/v0.2.0/matenadar-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "72892eb4e6c7c6347a3ad39a7cbb177bef04f182401ca4521f26d9f75b4aca2f"
+      url "https://github.com/lvnr/matenadar/releases/download/v0.3.0/matenadar-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "dbdb33c70c4263000f8dffad39ac0f1d3d6b26c8130633160728b7cc83d64f62"
     end
   end
 
